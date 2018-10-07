@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+header {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+footer {
+    font-family: 'Oxygen', sans-serif;
+}
+
+header a {
+  color: #d5ad6e;
+  font-weight: 400;
+  padding: 1.25rem 2.5rem;
+  box-shadow: 0 .15em 0 .20em rgba(0, 0, 0, 0.1);
+  background-color: #042a3d;
+  border-color: #1d809f;
+  text-decoration: none;
+}
+
+header h1 {
+  padding-top: 1em;
+  text-align: center;
+  color: #faf5ed;
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  color: #faf5ed;
+  font-weight: 700;
+  margin-bottom: 2.75em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

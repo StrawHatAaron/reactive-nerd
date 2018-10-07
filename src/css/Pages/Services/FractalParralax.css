@@ -1,0 +1,32 @@
+div.react-parallax-content{
+  height: 15em;
+}
+
+div.parallax-section{
+  margin-top: 3em;
+  clear: both;
+}
+
+div.parallax-find-more{
+  height: 1em;
+}
+
+h1.parallax-h1 {
+  text-align: center;
+  color:#faf5ed;
+}
+
+p.parallax-p {
+  text-align: center;
+  color:#faf5ed;
+}
+
+p.parallax-div-button {
+  text-align: center;
+  margin: auto;
+  width: 8em;
+  color: #faf5ed;
+  background-color: #042a3d;
+  padding: 1em;
+  text-decoration: none !important;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "reactive-nerd",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "5.7.1",
+    "node": "9.5.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0-11",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0-11",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "ajv": "^6.5.2",
+    "font-awesome": "^4.7.0",
+    "i": "^0.3.6",
+    "npm": "^6.3.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-grid-system": "^4.1.7",
+    "react-navigation": "^2.11.2",
+    "react-parallax": "^1.8.0",
+    "react-redux": "^5.0.7",
+    "react-responsive": "^5.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}

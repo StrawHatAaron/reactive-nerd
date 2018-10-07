@@ -1,0 +1,18 @@
+footer {
+  background-color: #faf5ed;
+  color: #042a3d;
+}
+
+div.footer-1 {
+  padding-top: 1em;
+}
+
+div > .footer-section {
+  bottom:0;
+  position: absolute;
+  display: inline;
+}
+
+a {
+  color: #8cc7f1;
+}

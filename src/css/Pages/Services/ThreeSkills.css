@@ -1,0 +1,59 @@
+.services{
+  background-color: #042a3d;
+  paddind-top: 30em;
+  paddind-bottom: 30em;
+  text-align: center;
+}
+
+.services h3 {
+  font-size: 2rem;
+  color: #faf5ed;
+  margin: 0;
+  padding-top: .5em;
+}
+
+.services h2 {
+  font-size: 4rem;
+  color: #d5ad6e;
+  margin-top: .5em;
+}
+
+.fab-section{
+  margin-top: -8em;
+  width: 80%;
+  padding: 1em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255, 0.5);
+  border-radius: 15%
+}
+
+.fab-span{
+  margin: -.5em;
+}
+
+div > .div-design{
+  float:none;
+  background-color: #d5ad6e;
+  width: 20%;
+  color: #d5ad6e;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12em 2em;
+}
+
+.squareContent {
+  position: relative;
+  background-color:#042a3d;
+}
+
+div.mappedContent {
+  white-space: normal;
+  overflow: hidden;
+  background-color: #d5ad6e;
+  color: #faf5ed;
+}
