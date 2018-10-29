@@ -1,0 +1,66 @@
+.react-logo{
+  width: 100%;
+  height: auto;
+}
+
+#hover-glass {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 9999;
+}
+#hover-glass img {
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #7482A5;
+  transition: border-radius 0.2s ease-in-out;
+}
+#hover-glass img:hover {
+  border-radius: 30%;
+}
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*0.07688679245 ratio*/
+.glasses {
+  left: 15em;
+  position: relative;
+  width: 16.3em;
+  height: 5em;
+}
+.glasses:hover .glass {
+  background-image: linear-gradient(to bottom, #ff7660, #ff427d 70%);
+}
+.glasses .g-top {
+  position: absolute;
+  height: 1.15em;
+  width: 13.7em;
+  background-color: #3C3C3C;
+  top: 5px;
+  left: -5px;
+  border-radius: 5px;
+}
+.glasses .glass {
+  position: absolute;
+  height: 5em;
+  width: 6em;
+  background-image: linear-gradient(to bottom, #4DE2DC, #3888D1 70%);
+  border: 10px solid #3C3C3C;
+  top: 0;
+}
+.glasses .g-left {
+  -webkit-transform: rotate(2deg);
+          transform: rotate(2deg);
+  border-radius: 12px 12px 33px 29px;
+}
+.glasses .g-right {
+  left: 112px;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg);
+  border-radius: 12px 12px 29px 33px;
+}

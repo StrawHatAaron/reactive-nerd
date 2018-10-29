@@ -14,6 +14,6 @@ export default class Services extends Component{
         <ThreeSkills/>
         <Footer/>
       </div>
-    );
+    )
   }
 }
