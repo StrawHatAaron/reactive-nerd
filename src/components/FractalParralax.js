@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax, Background } from 'react-parallax';
-import '../../../css/Pages/Services/FractalParralax.css';
+import '../css/FractalParralax.css';
 //for the commit
 export default class FractalParralax extends Component {
   render() {
@@ -8,7 +8,7 @@ export default class FractalParralax extends Component {
         <div class='parallax-section'>
           <Parallax
             blur={0}
-            bgImage={require('../../../img/dark-blue-fractal.jpg')}
+            bgImage={require('../img/dark-blue-fractal.jpg')}
             strength={600}
           >
             <h1 class='parallax-h1'> {this.props.title} </h1>

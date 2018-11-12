@@ -3,9 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Container, Row, Col } from 'react-grid-system';
 
 import '../../../css/Pages/Contact/Contact.css';
-import App from '../../App'
-import Sunglasses from './Sunglasses';
+import Header from '../../Header'
 import Footer from '../../Footer';
+import Sunglasses from './Sunglasses';
+
 
 
 
@@ -13,7 +14,7 @@ export default class Contact extends Component{
   render(){
     return(
       <html>
-      <App/>
+      <Header/>
       <body class="contact-body">
         <Row>
           <Col sm={6}>

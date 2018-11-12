@@ -5,16 +5,16 @@
 
 #hover-glass {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 2px;
+  right: 2px;
   z-index: 9999;
 }
 #hover-glass img {
   box-sizing: border-box;
-  width: 45px;
-  height: 45px;
+  width: 22.5px;
+  height: 22.5px;
   border-radius: 50%;
-  border: 2px solid #7482A5;
+  border: 1px solid #7482A5;
   transition: border-radius 0.2s ease-in-out;
 }
 #hover-glass img:hover {
@@ -28,39 +28,42 @@
 
 /*0.07688679245 ratio*/
 .glasses {
-  left: 15em;
+  left: 5em;
   position: relative;
-  width: 16.3em;
-  height: 5em;
+  width: 5.43em;
+  height: 1.67em;
 }
 .glasses:hover .glass {
   background-image: linear-gradient(to bottom, #ff7660, #ff427d 70%);
 }
 .glasses .g-top {
   position: absolute;
-  height: 1.15em;
-  width: 13.7em;
+  height: 0.4em;
+  width: 5em;
   background-color: #3C3C3C;
-  top: 5px;
-  left: -5px;
-  border-radius: 5px;
+  top: 1.6em;
+  left: .5em;
+  border-radius: 2.5px;
 }
 .glasses .glass {
   position: absolute;
-  height: 5em;
-  width: 6em;
+  height: 2.5em;
+  width: 3em;
   background-image: linear-gradient(to bottom, #4DE2DC, #3888D1 70%);
-  border: 10px solid #3C3C3C;
+  border: 2.5px solid #3C3C3C;
   top: 0;
 }
 .glasses .g-left {
+  top: 1.4em;
+  left: .1em;
   -webkit-transform: rotate(2deg);
           transform: rotate(2deg);
-  border-radius: 12px 12px 33px 29px;
+  border-radius: 6px 6px 17.5px 14.5px;
 }
 .glasses .g-right {
-  left: 112px;
+  top: 1.4em;
+  left: 4em;
   -webkit-transform: rotate(-2deg);
           transform: rotate(-2deg);
-  border-radius: 12px 12px 29px 33px;
+  border-radius: 6px 6px 17.5px 14.5px;
 }
