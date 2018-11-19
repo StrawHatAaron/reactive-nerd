@@ -1,15 +1,38 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter, Route } from 'react-router-dom';
-import App from './App';
 import FractalParralax from './FractalParralax';
+import Toolbar from "./toolBar/Toolbar";
+import SideDrawer from "./toolBar/sideDrawer/SideDrawer";
+import Backdrop from "./toolBar/sideDrawer/Backdrop";
 
 export default class Sunglasses extends Component{
-  render(){
+    state = {
+        sideDrawerOpen: false
+    };
+
+    drawerToggleClickHandler = () => {
+        this.setState((prevState) => {
+            return {sideDrawerOpen: !prevState.sideDrawerOpen};
+        });
+    };
+
+    backdropClickHandler = () => {
+        this.setState({sideDrawerOpen: false});
+    };
+
+    render(){
+
+      let backdrop;
+      if (this.state.sideDrawerOpen) {
+          backdrop = <Backdrop click={this.backdropClickHandler} />
+      }
+
     return(
       <div>
-        <App/>
-        <FractalParralax title="Stylish Portfolio" button="Find Out More"/>
+          {/*<App/>*/}
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+          <FractalParralax title="Stylish Portfolio" button="Find Out More"/>
       </div>
     )
   }

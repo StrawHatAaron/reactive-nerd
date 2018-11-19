@@ -10,7 +10,6 @@ export default class Services extends Component{
     return(
       <div>
         <Header/>
-
         <ThreeSkills/>
         <Footer/>
       </div>
