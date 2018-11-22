@@ -1,47 +1,68 @@
-header.main-contact-container {
-  background-color: #042a3d;
-  color: #faf5ed;
-  text-align: center;
+textarea[type=text],
+input[type=text] {
+    width: 50%;
+    border: .25em solid #aaa;
+    border-radius: 1em;
+    background: #faf5ed;
+    margin: 2em;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
 }
 
-.contact-body{
-  padding-top: 4em;
+.inputWithIcon textarea[type=text],
+.inputWithIcon input[type=text] {
+    padding-left: 3em;
 }
 
-input[type=text]{
-  width: 50%;
-  border: .25em solid #aaa;
-  border-radius: 1em;
-  border-color: #042a3d;
-  margin: 2em;
-  outline: none;
-  padding: 8px;
-  box-sizing: border-box;
-  transition: .3s;
+.inputWithIcon textarea[type=text]:focus,
+.inputWithIcon input[type=text]:focus {
+    padding-left: 3.5em;
+    border-color: #faf5ed;
+    box-shadow: 0 0 2em 0 #faf5ed;
+    color: #042a3d;
 }
 
-input[type=text]:focus{
-  border-color: #042a3d;
-  box-shadow: 0 0 2em 0 #042a3d;
+input[type=text]:focus + i.contact-icon {
+    color: #042a3d;
 }
 
-.inputWithIcon input[type=text]{
-  padding-left: 5em;
+textarea[type=text]:focus + i.contact-icon{
+    color: #042a3d;
 }
 
 .inputWithIcon{
-  position: relative;
+    position: relative;
+}
+
+.big-textbox{
+    height: 8em;
+    border-top: #1d809f;
 }
 
 .inputWithIcon i{
-  position: absolute;
-  left: 1em;
-  top: 1em;
-  bottom: .5em;
-  padding: 1em;
-  color: #aaa;
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    bottom: .5em;
+    padding: 1em;
+    color: #aaa;
 }
 
-.inputWithIcon input[type=text]:focus + i{
-  color: #042a3d;
+.submit-button {
+    background: #faf5ed;
+    border: #d5ad6e;
+    width: 25%;
+    margin-left: 17%;
+    margin-right: 58%;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.submit-button:hover{
+    border-color: #faf5ed;
+    box-shadow: 0 0 1em 0 #faf5ed;
 }

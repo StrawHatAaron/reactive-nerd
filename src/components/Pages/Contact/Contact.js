@@ -15,15 +15,18 @@ export default class Contact extends Component{
             <Col sm={6}>
               <div class="inputWithIcon">
                 <input type="text" placeholder="Name"/>
-                <i><FontAwesomeIcon icon="user-ninja"/></i>
+                <i class="contact-icon"><FontAwesomeIcon icon="user-ninja"/></i>
               </div>
               <div class="inputWithIcon">
                 <input type="text" placeholder="Email"/>
-                <i><FontAwesomeIcon icon="envelope"/></i>
+                <i class="contact-icon"><FontAwesomeIcon icon="envelope"/></i>
               </div>
               <div class="inputWithIcon">
-                <input type="text" placeholder="Comment"/>
-                <i><FontAwesomeIcon icon="comment"/></i>
+                <textarea class="big-textbox" type="text" placeholder="Comment"/>
+                <i class="contact-icon"><FontAwesomeIcon icon="comment"/></i>
+              </div>
+              <div>
+                <button class="submit-button">Send Message</button>
               </div>
             </Col>
             <Col sm={6}>

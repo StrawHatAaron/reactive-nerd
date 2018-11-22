@@ -42,7 +42,7 @@ const squredIcons = icons.map((c) => {
       </div>
     </div>
   )
-})
+});
 
 
 export default class ThreeSkills extends Component{
@@ -54,6 +54,6 @@ export default class ThreeSkills extends Component{
           {squredIcons}
         </div>
       </div>
-    )
+    );
   }
 }

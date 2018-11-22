@@ -7,14 +7,17 @@ p {
 header {
   text-align: center;
   font-family: 'Oxygen', sans-serif;
+  background-color: #042a3d;
 }
 
 body {
     font-family: 'Oxygen', sans-serif;
+    background-color: #042a3d;
 }
 
 footer {
     font-family: 'Oxygen', sans-serif;
+    background-color: #042a3d;
 }
 
 header a {
