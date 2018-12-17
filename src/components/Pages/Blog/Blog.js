@@ -6,16 +6,18 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../../../css/Pages/Blog/Blog.css';
 
 
-const icons = [{pic:['java', 'js'], content: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using'},
-    {pic:['apple', 'expeditedssl'], content:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using'},
-    {pic:['app-store', 'github-alt'], content:'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using'}]
+const blogPosts = [ {title:"Aaron's project", description:"a enviromental report about shoes"},
+                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon"},
+                    {title:"Aaron's project", description:"a enviromental report about shoes"},
+                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon"}  ];
 
-const blogContent = icons.map((c) => {
-    return (
-             <div>
-                 <a>should probably get a database going by now.</a>
-             </div>
-    )
+const blogsHolder = blogPosts.map((c) => {
+   return(
+       <div class="blogContent">
+           <div>{c.title}</div>
+           <a class="blogComment">{c.description}</a>
+       </div>
+   );
 });
 
 
@@ -24,7 +26,9 @@ export default class Blog extends Component{
         return(
             <div>
                 <Header/>
-                <blogContent/>
+                <div class="um">
+                {blogsHolder}
+                </div>
                 <Footer/>
             </div>
         )

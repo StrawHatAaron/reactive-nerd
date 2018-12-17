@@ -1,0 +1,35 @@
+div.blogContent{
+    height: 10em;
+    width: 30%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid blue;
+    /*margin: 1em 1em auto;*/
+
+    text-align: center;
+    justify-content: center;
+    background-color: #d5ad6e;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+div.blogContent :hover{}
+
+div.um{
+    width: 100%;
+    display: flex;
+
+    position: relative;
+    background-color:#042a3d;
+
+}
+
+
+a.blogComment{
+    position:relative;
+    color: #042a3d;
+}
