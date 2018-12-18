@@ -5,6 +5,7 @@ import {Col, Row, Visible} from "react-grid-system";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../../../css/Pages/Blog/Blog.css';
 
+//whoa dude!
 
 const blogPosts = [ {title:"Aaron's project", description:"a enviromental report about shoes", pic:"../../../img/dark-blue-fractal.jpg"},
                     {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"},
