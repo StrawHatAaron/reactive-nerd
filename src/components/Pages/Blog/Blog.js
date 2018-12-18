@@ -6,16 +6,18 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../../../css/Pages/Blog/Blog.css';
 
 
-const blogPosts = [ {title:"Aaron's project", description:"a enviromental report about shoes"},
-                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon"},
-                    {title:"Aaron's project", description:"a enviromental report about shoes"},
-                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon"}  ];
+const blogPosts = [ {title:"Aaron's project", description:"a enviromental report about shoes", pic:"../../../img/dark-blue-fractal.jpg"},
+                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"},
+                    {title:"Aaron's project", description:"a enviromental report about shoes", pic:"../../../img/dark-blue-fractal.jpg"},
+                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"}  ];
 
 const blogsHolder = blogPosts.map((c) => {
    return(
-       <div class="blogContent">
+       <div class="blog-content">
            <div>{c.title}</div>
-           <a class="blogComment">{c.description}</a>
+           <a class="blog-comment">{c.description}</a>
+           <br/>
+           <img src={require("../../../img/dark-blue-fractal.jpg")} alt="something for the hard of sight" class="blog-pic-description"/>
        </div>
    );
 });
@@ -26,7 +28,7 @@ export default class Blog extends Component{
         return(
             <div>
                 <Header/>
-                <div class="um">
+                <div class="blog-holder">
                 {blogsHolder}
                 </div>
                 <Footer/>

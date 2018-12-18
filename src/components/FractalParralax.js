@@ -14,7 +14,7 @@ export default class FractalParralax extends Component {
             <h1 class='parallax-h1'> {this.props.title} </h1>
             <p class='parallax-p'> A Free Bootstrap Theme by Start Bootstrap</p>
             <p class='parallax-div-button'>
-              <a class='parallax-button' href="#button">{this.props.button}</a>
+                <a class='parallax-button' href="#button">{this.props.button}</a>
             </p>
 
           </Parallax>

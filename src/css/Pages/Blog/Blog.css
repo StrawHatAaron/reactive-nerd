@@ -1,35 +1,33 @@
-div.blogContent{
+div.blog-content{
     height: 10em;
-    width: 30%;
+    width: 35%;
     padding: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid blue;
-    /*margin: 1em 1em auto;*/
-
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
     text-align: center;
     justify-content: center;
     background-color: #d5ad6e;
-
     flex-wrap: wrap;
-    flex-direction: column;
 
     overflow: hidden;
 }
 
-div.blogContent :hover{}
+div.blog-content :hover{}
 
-div.um{
-    width: 100%;
+div.blog-holder{
+    flex-wrap: wrap;
     display: flex;
-
-    position: relative;
     background-color:#042a3d;
-
 }
 
 
-a.blogComment{
-    position:relative;
+a.blog-comment{
     color: #042a3d;
+}
+
+img.blog-pic-description{
+    margin-top:1em;
+    max-width: 30%;
+    height: auto;
 }
