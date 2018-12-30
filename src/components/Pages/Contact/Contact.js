@@ -11,7 +11,7 @@ export default class Contact extends Component{
     return(
       <body class="contact-body">
         <Header/>
-          <Row>
+          <Row class="contact-content">
             <Col sm={6}>
               <div class="inputWithIcon">
                 <input type="text" placeholder="Name"/>

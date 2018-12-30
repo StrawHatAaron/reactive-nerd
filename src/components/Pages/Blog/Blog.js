@@ -10,7 +10,9 @@ import '../../../css/Pages/Blog/Blog.css';
 const blogPosts = [ {title:"Aaron's project", description:"a enviromental report about shoes", pic:"../../../img/dark-blue-fractal.jpg"},
                     {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"},
                     {title:"Aaron's project", description:"a enviromental report about shoes", pic:"../../../img/dark-blue-fractal.jpg"},
-                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"}  ];
+                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"},
+                    {title:"Aaron's project", description:"a enviromental report about shoes", pic:"../../../img/dark-blue-fractal.jpg"},
+                    {title:"Mikana's project", description:"a enviromental report about passenger pigeon", pic:"../../../img/dark-blue-fractal.jpg"}];
 
 const blogsHolder = blogPosts.map((c) => {
    return(

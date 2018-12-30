@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax, Background } from 'react-parallax';
 import '../css/FractalParralax.css';
+import SunGlasses from "./Pages/Contact/Sunglasses";
 //for the commit
 export default class FractalParralax extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class FractalParralax extends Component {
           >
             <h1 class='parallax-h1'> {this.props.title} </h1>
             <p class='parallax-p'> A Free Bootstrap Theme by Start Bootstrap</p>
+              <SunGlasses/>
             <p class='parallax-div-button'>
                 <a class='parallax-button' href="#button">{this.props.button}</a>
             </p>
