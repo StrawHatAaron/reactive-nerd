@@ -1,6 +1,7 @@
 div.react-logo{
     width: 100%;
     height: auto;
+
 }
 
 #hover-glass {
@@ -33,6 +34,8 @@ div.glasses {
     position: relative;
     width: 5.43em;
     height: 1.67em;
+    margin-left: -5.55em;
+    margin-top: -.5em;
 }
 
 div.glasses:hover .glass {

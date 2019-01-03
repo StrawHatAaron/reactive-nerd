@@ -33,7 +33,8 @@ export default class Sunglasses extends Component{
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
-          <FractalParralax title="Stylish Portfolio" button="Find Out More"/>
+          <FractalParralax title="Stylish Portfolio" content="A Miller And Montagnino Inspiration" button="See More"/>
+
       </div>
     )
   }

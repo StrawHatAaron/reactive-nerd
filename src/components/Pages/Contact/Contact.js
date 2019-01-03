@@ -30,7 +30,7 @@ export default class Contact extends Component{
               </div>
             </Col>
             <Col sm={6}>
-              <Sunglasses/>
+              <div>going to need some more content here</div>
             </Col>
           </Row>
         <Footer/>

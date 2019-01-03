@@ -56,4 +56,11 @@ div.mappedContent {
   overflow: hidden;
   background-color: #d5ad6e;
   color: #faf5ed;
+
+}
+
+div.mappedContent:hover {
+  box-shadow: 0em 0em 1em .15em #000;
+  -webkit-transition: width 1s;
+  transition: width 1s;
 }

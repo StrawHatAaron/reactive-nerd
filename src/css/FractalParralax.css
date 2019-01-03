@@ -21,12 +21,28 @@ p.parallax-p {
   color:#faf5ed;
 }
 
-p.parallax-div-button {
+div.parallax-div-button {
   text-align: center;
   margin: auto;
   width: 8em;
-  color: #faf5ed;
+  height: 7.5em;
+  color: #61DAFB;
   background-color: #042a3d;
   padding: 1em;
   text-decoration: none !important;
+
 }
+
+div.parallax-div-button:hover{
+  background-color: #002a30;
+  box-shadow: 0em 0em .25em .05em #8cc7f1;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+  color: #ff7660;
+}
+
+p.parallax-button-text{
+  margin-top: -.5em;
+}
+
+

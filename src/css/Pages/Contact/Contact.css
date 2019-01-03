@@ -6,7 +6,7 @@
 
 textarea[type=text],
 input[type=text] {
-    width: 50%;
+    width: 75%;
     border: .25em solid #aaa;
     border-radius: 1em;
     background: #faf5ed;
