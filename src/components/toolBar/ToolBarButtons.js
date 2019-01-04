@@ -1,18 +1,19 @@
 import React, {Component} from 'react';
+//trying to find this array
+// import NavConstants from '../Constants/NavConstants';
 
-const sections = [{title:'Home', url:'/'},
-                {title:'Services', url:'/services'},
-                {title:'Blog', url:'/blog'},
-                {title:'Portfolio', url:'/portfolio'},
-                {title:'Contact', url:'/contact'}]
+export const NavConstants = ['Home', 'Services', 'Blog', 'Portfolio', 'Contact'];
 
-
-const ToolBarButtons = sections.map((section) => {
+const ToolBarButtons = NavConstants.map((section) => {
   return (
     <li>
-      <a href={section.url}>{section.title}</a>
+      <a class="desktop-toolbar-buttons" href={section}> {section} </a>
     </li>
   )
-})
+});
+
+
+
 
 export default ToolBarButtons;
+

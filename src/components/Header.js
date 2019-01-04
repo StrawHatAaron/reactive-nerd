@@ -3,7 +3,7 @@ import FractalParralax from './FractalParralax';
 import Toolbar from "./toolBar/Toolbar";
 import SideDrawer from "./toolBar/sideDrawer/SideDrawer";
 import Backdrop from "./toolBar/sideDrawer/Backdrop";
-import SunGlasses from "./Pages/Contact/Sunglasses";
+
 
 export default class Sunglasses extends Component{
     state = {
