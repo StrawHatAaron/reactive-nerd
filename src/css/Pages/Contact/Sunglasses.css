@@ -39,7 +39,7 @@ div.glasses {
 }
 
 div.glasses:hover .glass {
-    background-image: linear-gradient(to bottom, #ff7660, #ff427d 70%);
+    background-image: linear-gradient(to bottom, #ff7660, #d5ad6e 70%);
 }
 
 div.glasses .g-top {
