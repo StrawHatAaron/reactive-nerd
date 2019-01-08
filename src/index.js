@@ -26,6 +26,7 @@ ReactDOM.render((
      <BrowserRouter basename={process.env.PUBLIC_URL}>
      <div>
         <Route exact path="/" component={Home}/>
+        <Route exact path="/home" component={Home}/>
         <Route exact path="/services" component={Services}/>
         <Route exact path="/blog" component={Blog}/>
         <Route exact path="/portfolio" component={Portfolio}/>
