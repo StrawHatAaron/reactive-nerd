@@ -16,6 +16,8 @@ const tCheckSlideShow = tCheckPdfs.map((pdf) => {
     )
 });
 
+//trying to push update and then start the portfolio
+
 export default class Portfolio extends Component{
     render(){
         return(
