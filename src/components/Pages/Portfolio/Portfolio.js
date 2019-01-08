@@ -16,7 +16,7 @@ const tCheckSlideShow = tCheckPdfs.map((pdf) => {
     )
 });
 
-//trying to push update and then start the portfolio
+//very pleased. changed the buildpack and ran updates and everything still works
 
 export default class Portfolio extends Component{
     render(){
