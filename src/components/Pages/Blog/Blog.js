@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../../Header'
 import Footer from '../../Footer';
-import {Col, Row, Visible} from "react-grid-system";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import '../../../css/Pages/Blog/Blog.css';
 
 //whoa dude!

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 //trying to find this array
 // import NavConstants from '../Constants/NavConstants';
 

@@ -4,7 +4,7 @@ import {Row, Col} from 'react-grid-system';
 import '../../../css/Pages/Contact/Contact.css';
 import Header from '../../Header'
 import Footer from '../../Footer';
-import Sunglasses from './Sunglasses';
+
 
 export default class Contact extends Component{
   render(){

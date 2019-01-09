@@ -5,7 +5,7 @@ import SideDrawer from "./toolBar/sideDrawer/SideDrawer";
 import Backdrop from "./toolBar/sideDrawer/Backdrop";
 
 
-export default class Sunglasses extends Component{
+export default class Header extends Component{
     state = {
         sideDrawerOpen: false
     };
@@ -28,7 +28,7 @@ export default class Sunglasses extends Component{
       }
 
     return(
-      <div>
+      <div>/*want to change this to header*/
           {/*<App/>*/}
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />

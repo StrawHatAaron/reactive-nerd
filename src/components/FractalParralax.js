@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Parallax, Background } from 'react-parallax';
+import { Parallax} from 'react-parallax';
 import '../css/FractalParralax.css';
 import SunGlasses from "./Pages/Contact/Sunglasses";
 //for the commit

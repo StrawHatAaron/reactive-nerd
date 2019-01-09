@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import '../../../css/Pages/Services/ThreeSkills.css';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import MediaQuery from 'react-responsive';
-import { Container, Row, Col, Visible } from 'react-grid-system';
+import {  Row, Col, Visible } from 'react-grid-system';
 
 
 const icons = [{pic:['java', 'js'], content: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using'},

@@ -21,10 +21,10 @@ export default class Footer extends Component{
             </Col>
             <Col sm={4}>
               <Visible xl lg md>
-                <h4 class="footer-section">© 2018 Reactive Nerd</h4>
+                <h4 class="footer-section">© 2019 Reactive Nerd</h4>
               </Visible>
               <Visible sm xs>
-                <h4>© 2018 Reactive-Nerd</h4>
+                <h4>© 2019 Reactive-Nerd</h4>
               </Visible>
             </Col>
             <Col sm={4}>
