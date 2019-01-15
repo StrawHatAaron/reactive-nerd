@@ -19,7 +19,7 @@ const BackDropButtons = NavConstants.map((section) => {
 //className => react
 const backdrop = props => (
     <div class="backdrop-toolbar-body" className="backdrop" onClick={props.click} >
-        {BackDropButtons}
+        <h1>hello</h1>
     </div>
 );
 

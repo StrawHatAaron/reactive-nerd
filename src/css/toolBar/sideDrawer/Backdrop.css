@@ -2,8 +2,8 @@
 .backdrop {
     margin-top: 3.6em;
     position: fixed;
-    width: 50%;
-    height: 100%;
+    width: 60%;
+    height: 75%;
     top: 0;
     left: 0;
     background: #faf5ed;
@@ -19,7 +19,7 @@ ul.unordered-toolbar-buttons{
 a.backdrop-toolbar-buttons {
     text-decoration: none !important;
     color: #042a3d;
-    font-size: 3rem;
+    font-size: 1.6rem;
 
 }
 
