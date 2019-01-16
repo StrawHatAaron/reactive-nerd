@@ -3,7 +3,7 @@ import './css/App.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import {faUserNinja, faEnvelope, faComment } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faUserNinja, faEnvelope, faComment)//, faHome, faServiceStack, faBlog, faFileContract, faDraftingCompass);//need to update font awesome
+library.add(fab, faUserNinja, faEnvelope, faComment);//, faHome, faServiceStack, faBlog, faFileContract, faDraftingCompass);//need to update font awesome
 
 class App extends Component {
   render() {

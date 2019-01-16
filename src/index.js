@@ -33,7 +33,7 @@ ReactDOM.render((
         <Route exact path="/contact" component={Contact}/>
       </div>
      </BrowserRouter>
-     ),
-     document.getElementById('root')
+    ),
+    document.getElementById('root')
 );
 registerServiceWorker();

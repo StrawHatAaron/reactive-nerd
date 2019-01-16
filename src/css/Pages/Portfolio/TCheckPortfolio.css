@@ -4,7 +4,7 @@ div.tCheckPortfolio {
     display: inline-block;
 }
 
-/** {box-sizing:border-box}*/
+* {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
