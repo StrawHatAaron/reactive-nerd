@@ -15,7 +15,11 @@ div.tCheckPortfolio {
 
 /* Hide the images by default */
 .mySlides {
-    display: none;
+    /*display: none;*/
+}
+
+.mySlidesBlocked{
+    display: block;
 }
 
 /* Next & previous buttons */

@@ -3,21 +3,24 @@ import '../../css/toolBar/Toolbar.css';
 import DrawerToggleButton from './sideDrawer/DrawerToggleButton';
 import ToolBarButtons from './ToolBarButtons'
 
+import ReactDOM from 'react-dom';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+
+
 //umfdkfdsdffd
 const toolbar = props => (
   <header className="toolbar">
-    <nav className="toolbar__navigation">
-        <div className="toolbar__toggle-button">
-            <DrawerToggleButton click={props.drawerClickHandler} />
-        </div>
-        <div className="toolbar__logo"><a href="/">Reactive Nerd</a></div>
-        <div className="spacer" />
-        <div className="toolbar_navigation-items">
-            <ul>
-              {ToolBarButtons}
-            </ul>
-        </div>
-    </nav>
+
+
+      <script src="https://unpkg.com/react/umd/react.production.js" crossOrigin></script>
+      <script src="https://unpkg.com/react-dom/umd/react-dom.production.js" crossOrigin></script>
+      <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossOrigin></script>
+      <script>
+          var Alert = ReactBootstrap.Alert;
+      </script>
+
+
+
   </header>
 );
 

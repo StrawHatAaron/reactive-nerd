@@ -1,25 +1,25 @@
 
-.backdrop {
-    margin-top: 3.6em;
-    position: fixed;
-    width: 60%;
-    height: 75%;
-    top: 0;
-    left: 0;
-    background: #faf5ed;
-    z-index: 100;
-}
+/*.backdrop {*/
+    /*margin-top: 3.6em;*/
+    /*position: fixed;*/
+    /*width: 60%;*/
+    /*height: 75%;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*background: #faf5ed;*/
+    /*z-index: 100;*/
+/*}*/
 
-ul.unordered-toolbar-buttons{
-    background-color: #faf5ed;
-    border-top: #222222;
+/*ul.unordered-toolbar-buttons{*/
+    /*background-color: #faf5ed;*/
+    /*border-top: #222222;*/
 
-}
+/*}*/
 
-a.backdrop-toolbar-buttons {
-    text-decoration: none !important;
-    color: #042a3d;
-    font-size: 1.6rem;
+/*a.backdrop-toolbar-buttons {*/
+    /*text-decoration: none !important;*/
+    /*color: #042a3d;*/
+    /*font-size: 1.6rem;*/
 
-}
+/*}*/
 

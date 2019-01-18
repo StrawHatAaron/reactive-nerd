@@ -30,9 +30,12 @@ export default class Header extends Component{
     return(
       <div>/*want to change this to header*/
           {/*<App/>*/}
-          <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-          <SideDrawer show={this.state.sideDrawerOpen} />
-          {backdrop}
+          {/*<Toolbar drawerClickHandler={this.drawerToggleClickHandler} />*/}
+          {/*<SideDrawer show={this.state.sideDrawerOpen} />*/}
+          {/*{backdrop}*/}
+          <h1>hello</h1>
+          <Toolbar/>
+
           <FractalParralax title="Stylish Portfolio" content="A Miller And Montagnino Inspiration" button="See More"/>
 
       </div>
