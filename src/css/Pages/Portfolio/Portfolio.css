@@ -2,3 +2,16 @@ embed.tCheck-number-text {
     width: 10em;
     height: 10em;
 }
+
+div.large-animation-slider{
+    width: 100%;
+}
+
+
+#sliding-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #042a3d;
+}

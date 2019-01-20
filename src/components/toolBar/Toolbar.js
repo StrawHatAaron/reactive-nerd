@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 
-//umfdkfdsdffd
+
 const toolbar = props => (
   <header className="toolbar">
 
@@ -18,6 +18,8 @@ const toolbar = props => (
       <script>
           var Alert = ReactBootstrap.Alert;
       </script>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/>
 
 
 

@@ -3,6 +3,8 @@ import FractalParralax from './FractalParralax';
 import Toolbar from "./toolBar/Toolbar";
 import SideDrawer from "./toolBar/sideDrawer/SideDrawer";
 import Backdrop from "./toolBar/sideDrawer/Backdrop";
+import ReactDOM from 'react-dom';
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 
 export default class Header extends Component{
@@ -28,17 +30,14 @@ export default class Header extends Component{
       }
 
     return(
-      <div>/*want to change this to header*/
-          {/*<App/>*/}
-          {/*<Toolbar drawerClickHandler={this.drawerToggleClickHandler} />*/}
-          {/*<SideDrawer show={this.state.sideDrawerOpen} />*/}
-          {/*{backdrop}*/}
-          <h1>hello</h1>
-          <Toolbar/>
+      <header>
+
+
+
 
           <FractalParralax title="Stylish Portfolio" content="A Miller And Montagnino Inspiration" button="See More"/>
 
-      </div>
+      </header>
     )
   }
 }

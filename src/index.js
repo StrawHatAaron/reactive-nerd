@@ -9,6 +9,7 @@ import Services from './components/Pages/Services/Services';
 import Portfolio from './components/Pages/Portfolio/Portfolio';
 import Contact  from './components/Pages/Contact/Contact';
 import Blog     from './components/Pages/Blog/Blog';
+import Test from './components/Pages/Testing/Test';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -31,6 +32,7 @@ ReactDOM.render((
         <Route exact path="/blog" component={Blog}/>
         <Route exact path="/portfolio" component={Portfolio}/>
         <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/test" component={Test}/>/>
       </div>
      </BrowserRouter>
     ),

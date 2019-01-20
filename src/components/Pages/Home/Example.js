@@ -38,7 +38,6 @@ export default class Example extends React.Component {
                     {this.state.counter}
                 </button>
                 <br/>
-
                 <h1>the time is {this.state.date.toLocaleTimeString()}</h1>
             </div>
         );
