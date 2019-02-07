@@ -33,23 +33,18 @@ export default class TCheckPortfolio extends React.Component{
 
     render(){
         return(
-
-                <div class={this.props.title} id='sliding-container'>
-                    <div className="mySlides">
-                        <div className="numbertext">{this.state.slideIndex+1} / 3</div>
-                        <img src={this.state.src[this.state.slideIndex]} alt={this.state.alt[this.state.slideIndex]}/>
-                        <div className="bottom-slide-content">
-                            During my time at tCheck I became a skilled skilled at working in a small team of developer in a
-                            professional setting.
-                        </div>
+            <div class={this.props.title} id='sliding-container'>
+                <div className="mySlides">
+                    <div className="numbertext">{this.state.slideIndex+1} / 3</div>
+                    <img src={this.state.src[this.state.slideIndex]} alt={this.state.alt[this.state.slideIndex]}/>
+                    <div className="bottom-slide-content">
+                        During my time at tCheck I became a skilled skilled at working in a small team of developer in a
+                        professional setting.
                     </div>
-                    <a className="prev"  href="#" onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;</a>
-                    <a className="next"  href="#" onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;</a>
-
-
                 </div>
-
-
+                <a className="prev"  href="#" onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;</a>
+                <a className="next"  href="#" onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;</a>
+            </div>
         );
     }
 }

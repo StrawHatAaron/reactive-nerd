@@ -1,16 +1,20 @@
-embed.tCheck-number-text {
-    width: 10em;
-    height: 10em;
-}
-
 div.large-animation-slider{
-    width: 100%;
+    overflow: auto;
 }
 
 #sliding-container {
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #042a3d;
+}
+
+#sliding-container::-webkit-scrollbar {
+    width: 0.1em;
+    height: 0.55em;
+}
+
+#sliding-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom,#faf5ed,#d5ad6e);
+    border-radius: 10px;
 }

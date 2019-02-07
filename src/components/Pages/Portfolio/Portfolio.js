@@ -13,6 +13,8 @@ export default class Portfolio extends Component{
                     <TCheckPortfolio title='slideshow-container'/>
                     <TCheckPortfolio title='slideshow-container'/>
                     <TCheckPortfolio title='slideshow-container'/>
+                    <TCheckPortfolio title='slideshow-container'/>
+                    <TCheckPortfolio title='slideshow-container'/>
                 </div>
                 <Footer/>
             </div>
