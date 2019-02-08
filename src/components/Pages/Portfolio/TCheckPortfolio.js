@@ -21,30 +21,22 @@ export default class TCheckPortfolio extends React.Component{
     }
 
     currentSlide(n){
-        if(n > this.state.src.length - 1) {
-            this.setState({slideIndex: 0});
-        } else if (n < 0) {
-            this.setState({slideIndex: this.state.src.length - 1 });
-        } else {
-            this.setState({slideIndex: n});
-        }
-        console.log(this.state.slideIndex);
+        let newSlide = n<0 ?  2 : Math.abs(n % 3);
+        this.setState({slideIndex: newSlide });
     }
 
     render(){
         return(
-            <div class={this.props.title} id='sliding-container'>
                 <div className="mySlides">
-                    <div className="numbertext">{this.state.slideIndex+1} / 3</div>
+                    <div className="number-text">{this.state.slideIndex+1} / 3</div>
                     <img src={this.state.src[this.state.slideIndex]} alt={this.state.alt[this.state.slideIndex]}/>
                     <div className="bottom-slide-content">
                         During my time at tCheck I became a skilled skilled at working in a small team of developer in a
                         professional setting.
                     </div>
+                    <a className="prev"  href="#" onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;</a>
+                    <a className="next"  href="#" onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;</a>
                 </div>
-                <a className="prev"  href="#" onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;</a>
-                <a className="next"  href="#" onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;</a>
-            </div>
         );
     }
 }

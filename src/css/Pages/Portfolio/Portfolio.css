@@ -1,5 +1,8 @@
 div.large-animation-slider{
     overflow: auto;
+    height: 30em;
+    width: 100%;
+
 }
 
 #sliding-container {
@@ -15,6 +18,6 @@ div.large-animation-slider{
 }
 
 #sliding-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom,#faf5ed,#d5ad6e);
+    background: linear-gradient(to bottom, #d5ad6e, #faf5ed);
     border-radius: 10px;
 }

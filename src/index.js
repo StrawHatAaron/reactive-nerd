@@ -32,7 +32,7 @@ ReactDOM.render((
         <Route exact path="/blog" component={Blog}/>
         <Route exact path="/portfolio" component={Portfolio}/>
         <Route exact path="/contact" component={Contact}/>
-        <Route exact path="/test" component={Test}/>/>
+        <Route exact path="/test" component={Test}/>
       </div>
      </BrowserRouter>
     ),

@@ -9,12 +9,14 @@ export default class Portfolio extends Component{
         return (
             <div>
                 <Header/>
-                <div class="large-animation-slider" id="sliding-container">
-                    <TCheckPortfolio title='slideshow-container'/>
-                    <TCheckPortfolio title='slideshow-container'/>
-                    <TCheckPortfolio title='slideshow-container'/>
-                    <TCheckPortfolio title='slideshow-container'/>
-                    <TCheckPortfolio title='slideshow-container'/>
+                <div className="large-animation-slider" id="sliding-container">
+                    <TCheckPortfolio/>
+                    <TCheckPortfolio/>
+                    <TCheckPortfolio/>
+                    <TCheckPortfolio/>
+                    <TCheckPortfolio/>
+                    <TCheckPortfolio/>
+                    <TCheckPortfolio/>
                 </div>
                 <Footer/>
             </div>
