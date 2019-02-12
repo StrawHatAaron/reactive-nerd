@@ -1,8 +1,8 @@
 div.large-animation-slider{
     overflow: auto;
-    height: 30em;
+    height: 40em;
     width: 100%;
-
+    margin-top: 8.5em;
 }
 
 #sliding-container {

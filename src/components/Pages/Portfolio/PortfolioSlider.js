@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../../css/Pages/Portfolio/TCheckPortfolio.css';
+import '../../../css/Pages/Portfolio/PortfolioSlider.css';
 import tCheckDeviceConnect from '../../../img/tCheck/tCheck-device-connect.png';
 import tCheckMixture from '../../../img/tCheck/tCheck-mixture.png';
 import tCheckLogo from '../../../img/tCheck/tCheck-logo.png';
 
-export default class TCheckPortfolio extends React.Component{
+export default class PortfolioSlider extends React.Component{
     constructor(props){
         super(props);
         this.state = {
@@ -29,13 +29,17 @@ export default class TCheckPortfolio extends React.Component{
         return(
                 <div className="mySlides">
                     <div className="number-text">{this.state.slideIndex+1} / 3</div>
-                    <img src={this.state.src[this.state.slideIndex]} alt={this.state.alt[this.state.slideIndex]}/>
+                    <div className="image-arrow-holder">
+                        <button className="prev"  href="#" onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;</button>
+                        <img classNmae="sliding-image" src={this.state.src[this.state.slideIndex]} alt={this.state.alt[this.state.slideIndex]}/>
+                        <button className="next"  href="#" onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;</button>
+                    </div>
+
                     <div className="bottom-slide-content">
                         During my time at tCheck I became a skilled skilled at working in a small team of developer in a
                         professional setting.
                     </div>
-                    <a className="prev"  href="#" onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;</a>
-                    <a className="next"  href="#" onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;</a>
+
                 </div>
         );
     }

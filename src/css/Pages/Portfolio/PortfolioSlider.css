@@ -8,28 +8,50 @@
     background-color: #d5ad6e;
     border-radius: 1em;
     margin:2em;
+    height: 30em;
+    transition: 0.6s ease;
 }
 
 .mySlides:hover{
     box-shadow: 0em 0em 1em .15em #000;
     transform: scale(1.1);
-    -webkit-transition: width 1s;
-    transition: width 1s;
+    -webkit-transition: transform 1s ease-in-out;
+    transition: transform 1s ease-in-out;
+}
+
+.image-arrow-holder {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+sliding-image{
+    padding: 3em;
 }
 
 /* Next & previous buttons */
 .prev, .next {
     top: 65.7%;
-    height:2.4em;
-    padding: 1em;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0em .25em;
     color: #042a3d;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 3rem;
     transition: 0.6s ease;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2em;
+    border-radius: .7em;
 }
 /* Position the "next button" to the right */
 .next {
-    margin-right: 0;
+    /*margin-left: .5em;*/
+}
+
+.prev{
+    /*margin-right: .5em;*/
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -39,5 +61,10 @@
 .number-text {
     color: #042a3d;
     font-size: 1rem;
-    padding: .4em .9em;
+    padding: .5em;
+    text-align: center;
+}
+
+.bottom-slide-content{
+    margin: 1em;
 }
