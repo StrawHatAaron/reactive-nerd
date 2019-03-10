@@ -13,26 +13,8 @@ const squredIcons = icons.map((c) => {
     <div class="div-design">
       <div class="fab-section">
         <Row>
-            <Visible xl>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[0] ]} size="5x"/></Col></span>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[1] ]} size="5x"/></Col></span>
-            </Visible>
-            <Visible lg>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[0] ]} size="4x"/></Col></span>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[1] ]} size="4x"/></Col></span>
-            </Visible>
-            <Visible md>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[0] ]} size="3x"/></Col></span>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[1] ]} size="3x"/></Col></span>
-            </Visible>
-            <Visible sm>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[0] ]} size="2x"/></Col></span>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[1] ]} size="2x"/></Col></span>
-            </Visible>
-            <Visible xs>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[0] ]} size="1x"/></Col></span>
-              <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[1] ]} size="1x"/></Col></span>
-            </Visible>
+          <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[0] ]} size="4x"/></Col></span>
+          <span class='fab-span'><Col sm={4}><FontAwesomeIcon icon={['fab', c.pic[1] ]} size="4x"/></Col></span>
         </Row>
       </div>
       <div class="mappedContent">

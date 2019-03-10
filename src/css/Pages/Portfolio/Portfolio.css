@@ -1,5 +1,5 @@
 div.large-animation-slider{
-    overflow: auto;
+    /*overflow: auto;*/
     height: 40em;
     width: 100%;
     margin-top: 8.5em;
@@ -12,12 +12,12 @@ div.large-animation-slider{
     background-color: #042a3d;
 }
 
-#sliding-container::-webkit-scrollbar {
-    width: 0.1em;
-    height: 0.55em;
-}
+/*#sliding-container::-webkit-scrollbar {*/
+    /*width: 0.1em;*/
+    /*height: 0.55em;*/
+/*}*/
 
-#sliding-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #d5ad6e, #faf5ed);
-    border-radius: 10px;
-}
+/*#sliding-container::-webkit-scrollbar-thumb {*/
+    /*background: linear-gradient(to bottom, #d5ad6e, #faf5ed);*/
+    /*border-radius: 10px;*/
+/*}*/

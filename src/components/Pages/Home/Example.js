@@ -39,7 +39,12 @@ export default class Example extends React.Component {
                 </button>
                 <br/>
                 <h1>the time is {this.state.date.toLocaleTimeString()}</h1>
+
+
+
             </div>
+
+
         );
     }
 }
