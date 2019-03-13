@@ -41,32 +41,34 @@ export default class PortfolioSlider extends React.Component{
 
     render(){
         return(
-                <div className="mySlides">
-                    <div className="number-text">{this.state.slideIndex+1} / 3</div>
-                    <div className="image-arrow-holder">
-                        <button className="prev"
-                                href="#"
-                                onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;
-                        </button>
-                        <img className="sliding-image"
-                             src={this.state.src[this.state.sliderType][this.state.slideIndex]}
-                             alt={this.state.alt[this.state.sliderType][this.state.slideIndex]}
-                        />
-                        <button className="next"
-                                href="#"
-                                onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;
-                        </button>
-                    </div>
+            <div className="mySlides">
 
-                    <div className="portfolio-title-container" >
-                        <a className="portfolio-title"
-                           href={this.props.link}>{this.props.title}&#x29c9;</a>
-                    </div>
-
-                    <div className="bottom-slide-content" >
-                        {this.props.content}
-                    </div>
+                <div className="number-text">
+                    {this.state.slideIndex+1} / 3
                 </div>
+                <div className="image-arrow-holder">
+                    <button className="prev"
+                            href="#"
+                            onClick={() => this.currentSlide(this.state.slideIndex - 1)}>&#10094;
+                    </button>
+                    <img className="sliding-image"
+                         src={this.state.src[this.state.sliderType][this.state.slideIndex]}
+                         alt={this.state.alt[this.state.sliderType][this.state.slideIndex]}
+                    />
+                    <button className="next"
+                            href="#"
+                            onClick={() => this.currentSlide(this.state.slideIndex + 1)}>&#10095;
+                    </button>
+                </div>
+                <div className="portfolio-title-container" >
+                    <a className="portfolio-title"
+                       href={this.props.link}>{this.props.title}&#x29c9;</a>
+                </div>
+
+                <div className="bottom-slide-content" >
+                    {this.props.content}
+                </div>
+            </div>
         );
     }
 }
