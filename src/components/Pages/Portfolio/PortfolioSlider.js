@@ -42,7 +42,6 @@ export default class PortfolioSlider extends React.Component{
     render(){
         return(
             <div className="mySlides">
-
                 <div className="number-text">
                     {this.state.slideIndex+1} / 3
                 </div>
@@ -64,7 +63,6 @@ export default class PortfolioSlider extends React.Component{
                     <a className="portfolio-title"
                        href={this.props.link}>{this.props.title}&#x29c9;</a>
                 </div>
-
                 <div className="bottom-slide-content" >
                     {this.props.content}
                 </div>

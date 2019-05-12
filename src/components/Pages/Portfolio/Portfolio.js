@@ -8,6 +8,7 @@ import Slider from "react-slick/lib";
 export default class Portfolio extends Component{
     render() {
         const settings = {
+            dots: true,
             className: "center",
             centerMode: true,
             infinite: true,
